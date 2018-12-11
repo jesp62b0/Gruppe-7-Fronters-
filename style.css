@@ -55,9 +55,10 @@ img {
 /*Grid column items*/
 .login_splash {
     max-width: 768px;
-    flex-wrap: wrap;
     position: relative;
-    justify-content: center;
+    justify-items: center;
+    display: block;
+    margin: 0 auto;
 }
 
 /*loginpage*/
