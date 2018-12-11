@@ -85,7 +85,7 @@ img {
 /*loginpage grid*/
 .formgroup {
     display: grid;
-    grid-template-columns: 1fr 20rem;
+    grid-template-columns: 1fr 200px;
     height: 2rem;
 }
 
@@ -94,7 +94,6 @@ img {
 }
 
 .formgroup input {
-
     grid-column-start: 2;
 }
 
