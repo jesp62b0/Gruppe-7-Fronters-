@@ -15,6 +15,10 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+h1 {
+    color: var(--color-light);
+}
+
 
 /*---------------------------------------------------
 1: Variables & Common styling
@@ -49,8 +53,15 @@ body {
     max-width: 768px;
     margin: 0 auto;
     background-color: var(--color-dark);
-
 }
+
+.container_flex {
+    display: flex;
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: var(--color-dark);
+}
+
 
 .afleveringerpage .container {
     justify-items: left;
@@ -119,6 +130,12 @@ body {
 .formgroup,
 .glemtpassword {
     margin-bottom: 1rem;
+}
+
+.formgroup_flex {
+    display: flex;
+    height: 2rem;
+    color: var(--color-light);
 }
 
 /*afleveringer page*/
