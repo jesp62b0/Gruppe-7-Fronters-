@@ -25,7 +25,7 @@ img {
 ---------------------------------------------------*/
 /*Variables*/
 :root {
-    --color-dark: #333;
+    --color-dark: #3F3140;
     --color-light: #FEFEFE;
     --color-accent: #f90;
 }
@@ -44,7 +44,7 @@ img {
     justify-items: center;
     max-width: 768px;
     margin: 0 auto;
-    background-color: var(--color-light);
+    background-color: var(--color-dark);
 
 }
 
@@ -74,12 +74,21 @@ img {
     grid-row-start: 4;
     grid-column-start: 4;
     grid-column-end: 6;
+    color: var(--color-light);
 }
 
 .glemtpassword {
-    grid-row-start: 5;
-    grid-column-start: 4;
+    grid-row-start: 18;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    color: var(--color-light);
+}
+
+.sprog {
+    grid-row-start: 18;
+    grid-column-start: 6;
     grid-column-end: 6;
+    color: var(--color-light);
 }
 
 /*loginpage grid*/
@@ -87,6 +96,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 200px;
     height: 2rem;
+    color: var(--color-light);
 }
 
 .formgroup label {
@@ -118,7 +128,7 @@ input[type=submit] {
 }
 
 input[type=submit] {
-    background-color: black;
+    background-color: #F79D94;
     color: white;
     transition: background-color 1s, color 1s;
 }
@@ -157,5 +167,5 @@ td {
 ---------------------------------------------------*/
 /*Login page*/
 .loginpage {
-    background-color: #3F3140;
+    background-color: var(--color-dark);
 }
