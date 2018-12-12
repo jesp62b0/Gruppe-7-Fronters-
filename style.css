@@ -78,14 +78,14 @@ img {
 }
 
 .glemtpassword {
-    grid-row-start: 18;
+    grid-row-start: 15;
     grid-column-start: 1;
     grid-column-end: 1;
     color: var(--color-light);
 }
 
 .sprog {
-    grid-row-start: 18;
+    grid-row-start: 15;
     grid-column-start: 6;
     grid-column-end: 6;
     color: var(--color-light);
@@ -105,6 +105,7 @@ img {
 
 .formgroup input {
     grid-column-start: 2;
+    border: 1px solid black;
 }
 
 .formgroup,
