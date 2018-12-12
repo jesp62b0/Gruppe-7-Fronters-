@@ -148,6 +148,11 @@ h1 {
     background-color: var(--color-light);
 }
 
+.text_flex {
+    flex-wrap: wrap;
+    display: flex;
+}
+
 /*afleveringer page*/
 .afleveringer {}
 
